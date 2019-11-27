@@ -16,13 +16,16 @@ class App extends Component {
   render() { 
     return (
       <React.Fragment>
-     <h3> hello for app</h3>
+     
      <Navbar />
      <Switch>
-     <Route path='/' Component={ProductList}></Route>
-     <Route path='/details' Component={Details}></Route>
-     <Route path='/cart' Component={Cart}></Route>
-     <Route compponent={Default}></Route>
+     <Route exact path='/' component={ProductList}></Route>
+     <Route path='/details' component={Details}></Route>
+     
+     <Route path='/cart' component={Cart}></Route>
+     <Route path='/' component={ProductList}></Route>
+     <Route component={Default}></Route>
+
      </Switch>
      
   
