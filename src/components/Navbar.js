@@ -22,10 +22,13 @@ Products
 </li>
 </ul>
 <Link to="/cart" className="ml-auto">
-<button><i className="fas fa-cart-plus"></i>{'    '}my cart</button></Link>
+<ButtonContainer><span className="mr-2"><i className="fas fa-cart-plus"></i></span>{'    '}my cart</ButtonContainer></Link>
 </nav>  
 );
     }
 }
+const ButtonContainer= styled.button`
+text-transform:capitalize;
+`
  
 export default Navbar;
