@@ -1,11 +1,20 @@
 import React, { Component } from 'react';
 import Product from './Product';
 class productList extends Component {
-    state = {  }
+    state = { 
+        products:[]
+     }
     render() { 
         return (
-            <div>hello form product list
-            <Product></Product></div>
+           <React.Fragment>
+           <div className="py-5">
+           <div className="container">
+           <div className="row">
+           
+           
+           </div>
+        </div></div></React.Fragment> 
+            //<Product></Product>
             
           );
     }
