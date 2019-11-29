@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Product from './Product';
+import Title from "./Title";
 class productList extends Component {
     state = { 
         products:[]
@@ -10,6 +11,7 @@ class productList extends Component {
            <div className="py-5">
            <div className="container">
            <div className="row">
+           <Title name="our" title="products"></Title>
            
            
            </div>
