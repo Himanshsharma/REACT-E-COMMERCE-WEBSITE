@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
+import { storeProducts,detailProduct } from './data';
 const ProductContext = React.createContext();
-import { storeProducts,detailProducts} from './data';
 class ProductProvider extends Component {
     state = { 
         products: storeProducts,
