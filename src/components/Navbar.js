@@ -15,7 +15,7 @@ https://www.iconfinder.com/Makoto_msk */}
 <Link to='/'>
 <img src={logo} alt="store" className="navbar-brand" />
 </Link>
-<ul className="navbar-nav align-items-center" >
+<ul className="navbar-nav align-items-center">
 <li className="nav-item ml-5">
 <Link to="/" className="nav-link">
 Products
@@ -23,7 +23,7 @@ Products
 </li>
 </ul>
 <Link to="/cart" className="ml-auto">
-<ButtonContainer><span className="mr-2"><i className="fas fa-cart-plus"></i></span>{'    '}my cart</ButtonContainer></Link>
+<ButtonContainer><span className="mr-2"><i className="fas fa-cart-plus" style={{color:"white"}}></i></span>{'    '}my cart</ButtonContainer></Link>
 </NavWrapper>  
 );
     }
