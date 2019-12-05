@@ -69,6 +69,9 @@ overflow:hidden;
 .img-container:hover .card-img-top{
 transform:scale(1.2);
 }
+.cart-btn{
+    position:absolute;
+}
 
 `
 export default Product;
