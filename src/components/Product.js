@@ -71,6 +71,19 @@ transform:scale(1.2);
 }
 .cart-btn{
     position:absolute;
+    bottom:0;
+    right:0;
+    padding:0.2rem 0.4rem;
+    background:#009ffd;
+    border:none;
+    color:#f3f3f3;
+    font-size:1.4rem;
+    border-radius:0.5rem 0 0 0;
+    transform:translate(100%, 100%);
+    transition:all is linear;
+}
+.img-container:hover .cart-btn {
+    transform:translate(0, 0);
 }
 
 `
