@@ -85,6 +85,10 @@ transform:scale(1.2);
 .img-container:hover .cart-btn {
     transform:translate(0, 0);
 }
+.card-btn:hover{
+    color:#2a2a72;
+    cursor:pointer;
+}
 
 `
 export default Product;
