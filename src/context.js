@@ -16,6 +16,7 @@ class ProductProvider extends Component {
     tester=()=>{
 console.log("State products :", this.state.products[0].inCart);
 console.log("Data products : ", store.products[0].inCart);
+const tempProducts={...this.}
 
     }
     
