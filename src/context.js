@@ -10,30 +10,16 @@ class ProductProvider extends Component {
 
      }
      addToCart=()=>{
-
-
-    }
-    tester=()=>{
-console.log("State products :", this.state.products[0].inCart);
-console.log("Data products : ", store.products[0].inCart);
-const tempProducts={...this.state.products};
-tempProducts[0].inCart=true
-this.setState(()=>{
-    return {products:tempProducts}
-},()=>{
+}
 
 
 
-})
-
-    }
-    
     render() { 
         return ( 
             <ProductContext.Provider value={{
 ...this.state,handleDetail:this.handleDetail,addToCart:this.addToCart
             }}>
-            <button onClick={this.tester}></button>
+            
             {this.props.children}
             
             </ProductContext.Provider>
