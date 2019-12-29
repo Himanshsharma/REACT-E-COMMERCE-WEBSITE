@@ -20,6 +20,10 @@ const tempProducts={...this.state.products};
 tempProducts[0].inCart=true
 this.setState(()=>{
     return {products:tempProducts}
+},()=>{
+
+
+
 })
 
     }
@@ -29,6 +33,7 @@ this.setState(()=>{
             <ProductContext.Provider value={{
 ...this.state,handleDetail:this.handleDetail,addToCart:this.addToCart
             }}>
+            <button onClick={this.tester}></button>
             {this.props.children}
             
             </ProductContext.Provider>
