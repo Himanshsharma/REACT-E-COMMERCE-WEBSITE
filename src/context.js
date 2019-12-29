@@ -12,7 +12,10 @@ storeProducts.forEach(item=>{
     const singleItem={...item };
     products=[...products,singleItem];
 })
-this.setState
+this.setState (()=>{
+return {products:tempProducts}
+
+})
 
 
      }
