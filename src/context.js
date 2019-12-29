@@ -6,6 +6,10 @@ class ProductProvider extends Component {
         products: [],
         detailProduct: detailProduct,
      }
+     componentDidMount = () => {
+       this.storeProducts();
+     };
+     
      storeProducts=()=>{
 let products=[];
 storeProducts.forEach(item=>{
