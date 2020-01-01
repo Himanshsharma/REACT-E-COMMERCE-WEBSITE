@@ -41,9 +41,15 @@ class Details extends Component {
             some info about product:
             </p>
             <p className="text-muted lead">{info}</p>
-            </div></div>
-                </div>
-            )
+            <div>
+            <Link to='/'>
+            
+<ButtonContainer>Back to products</ButtonContainer>            
+            </Link>
+        </div>
+    </div>
+    </div>
+            </div>            )
         }}
         </ProductConsumer>    
             
