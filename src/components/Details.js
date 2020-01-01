@@ -1,8 +1,25 @@
 import React, { Component } from 'react';
+import {ProductConsumer} from '../context';
+import {Link} from "react-router-dom";
+import {ButtonContainer } from './Button';
+
+
 class Details extends Component {
     state = {  }
     render() { 
-        return ( <h3>hello from details</h3> );
+        return ( 
+        <ProductConsumer>
+        {(value)=>{
+            console.log(value.detailProduct);
+        }}
+        
+        
+        
+        
+        </ProductConsumer>    
+            
+            
+         );
     }
 }
  
