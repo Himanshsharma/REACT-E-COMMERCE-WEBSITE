@@ -11,10 +11,10 @@ class ProductProvider extends Component {
      };
      
      storeProducts=()=>{
-let products=[];
+let tempProducts=[];
 storeProducts.forEach(item=>{
     const singleItem={...item };
-    tempProducts=[...products,singleItem];
+    tempProducts=[...tempProducts,singleItem];
 })
 this.setState (()=>{
 return {products:tempProducts}
