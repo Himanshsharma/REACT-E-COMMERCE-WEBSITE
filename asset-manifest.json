@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Himanshsharma/REACT-E-COMMERCE-WEBSITE/static/css/main.68ecf83f.chunk.css",
+    "main.js": "/Himanshsharma/REACT-E-COMMERCE-WEBSITE/static/js/main.0c821a41.chunk.js",
+    "main.js.map": "/Himanshsharma/REACT-E-COMMERCE-WEBSITE/static/js/main.0c821a41.chunk.js.map",
+    "runtime-main.js": "/Himanshsharma/REACT-E-COMMERCE-WEBSITE/static/js/runtime-main.68d5ded8.js",
+    "runtime-main.js.map": "/Himanshsharma/REACT-E-COMMERCE-WEBSITE/static/js/runtime-main.68d5ded8.js.map",
+    "static/css/2.7aa6f31f.chunk.css": "/Himanshsharma/REACT-E-COMMERCE-WEBSITE/static/css/2.7aa6f31f.chunk.css",
+    "static/js/2.6f8fbb49.chunk.js": "/Himanshsharma/REACT-E-COMMERCE-WEBSITE/static/js/2.6f8fbb49.chunk.js",
+    "static/js/2.6f8fbb49.chunk.js.map": "/Himanshsharma/REACT-E-COMMERCE-WEBSITE/static/js/2.6f8fbb49.chunk.js.map",
+    "index.html": "/Himanshsharma/REACT-E-COMMERCE-WEBSITE/index.html",
+    "precache-manifest.6f6b82bd5fab318aa89c496a6ff5dd90.js": "/Himanshsharma/REACT-E-COMMERCE-WEBSITE/precache-manifest.6f6b82bd5fab318aa89c496a6ff5dd90.js",
+    "service-worker.js": "/Himanshsharma/REACT-E-COMMERCE-WEBSITE/service-worker.js",
+    "static/css/2.7aa6f31f.chunk.css.map": "/Himanshsharma/REACT-E-COMMERCE-WEBSITE/static/css/2.7aa6f31f.chunk.css.map",
+    "static/css/main.68ecf83f.chunk.css.map": "/Himanshsharma/REACT-E-COMMERCE-WEBSITE/static/css/main.68ecf83f.chunk.css.map",
+    "static/media/logo.svg": "/Himanshsharma/REACT-E-COMMERCE-WEBSITE/static/media/logo.9f7e506d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.68d5ded8.js",
+    "static/css/2.7aa6f31f.chunk.css",
+    "static/js/2.6f8fbb49.chunk.js",
+    "static/css/main.68ecf83f.chunk.css",
+    "static/js/main.0c821a41.chunk.js"
+  ]
+}
